@@ -1,0 +1,2 @@
+rootProject.name='Hexadecimal color'
+include ':app'
