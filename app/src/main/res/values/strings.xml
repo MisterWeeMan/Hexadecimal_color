@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Hexadecimal color</string>
+    <string name="generate">Generate</string>
 </resources>
