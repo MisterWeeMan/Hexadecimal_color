@@ -1,18 +1,17 @@
 package com.example.hexadecimalcolor.views
 
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import com.example.hexadecimalcolor.dagger.component.DaggerMainActivityComponent
-import com.example.hexadecimalcolor.dagger.module.WordViewModelModule
-import com.example.hexadecimalcolor.viewmodels.WordViewModel
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.hexadecimalcolor.R
 import com.example.hexadecimalcolor.WordApplication
 import com.example.hexadecimalcolor.common.utils.LoadingState
+import com.example.hexadecimalcolor.dagger.component.DaggerMainActivityComponent
+import com.example.hexadecimalcolor.dagger.module.WordViewModelModule
+import com.example.hexadecimalcolor.viewmodels.WordViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 import javax.inject.Inject
 

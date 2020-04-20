@@ -57,6 +57,9 @@ class WordViewModel(
                         word to colors[index]
                     }.toMap()
                 )
+
+                repository.saveWords(words)
+                repository.saveColors(colors)
             } catch (exc: Exception) {
                 mLoadingState.value = LoadingState.Failure(exc.message)
             }
