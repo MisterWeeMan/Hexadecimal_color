@@ -27,9 +27,6 @@ class WordViewModel(
             val words = repository.getWords()
             val color = repository.getColors()
 
-            Log.d("ViewModel", "Words count ${words.size}")
-            Log.d("ViewModel", "Colors count ${color.size}")
-
             if (words.isEmpty() || color.isEmpty()) {
                 mLoadingState.value = LoadingState.Success(mapOf())
             } else {
@@ -66,7 +63,7 @@ class WordViewModel(
         }
     }
 
-    private fun generateRandomHex(): String {
+    fun generateRandomHex(): String {
         val randomNumber = randomObj.nextInt(MAX_HEX_NUMBER)
 
         val colorCode = String.format(STRING_FORMAT, randomNumber)
