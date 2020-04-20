@@ -1,7 +1,7 @@
 package com.example.hexadecimalcolor.dagger.module
 
 import androidx.lifecycle.ViewModelProvider
-import com.example.hexadecimalcolor.MainActivity
+import com.example.hexadecimalcolor.views.MainActivity
 import com.example.hexadecimalcolor.dagger.scope.MainActivityScope
 import com.example.hexadecimalcolor.viewmodels.WordViewModel
 import com.example.hexadecimalcolor.viewmodels.WordViewModelFactory

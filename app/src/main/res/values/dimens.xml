@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="color_card_view_elevation">5dp</dimen>
+    <dimen name="color_card_view_margin">10dp</dimen>
+    <dimen name="tv_color_name_text_size">30sp</dimen>
+</resources>
